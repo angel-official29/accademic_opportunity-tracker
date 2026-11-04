@@ -1,0 +1,10 @@
+.env
+.*.env
+*.log
+.tmp_*
+.audit-venv/
+security-audit/dependency*.json
+.venv/
+__pycache__/
+*.pyc
+.vscode/

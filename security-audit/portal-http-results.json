@@ -1,0 +1,167 @@
+[
+  {
+    "role": "student",
+    "path": "/student/dashboard",
+    "status": 200
+  },
+  {
+    "role": "student",
+    "path": "/student/discover",
+    "status": 200
+  },
+  {
+    "role": "student",
+    "path": "/student/profile",
+    "status": 200
+  },
+  {
+    "role": "student",
+    "path": "/student/applications",
+    "status": 200
+  },
+  {
+    "role": "student",
+    "path": "/student/opportunities/1",
+    "status": 200
+  },
+  {
+    "role": "student",
+    "path": "/student/applications/1",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/dashboard",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/opportunities",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/opportunities/new",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/opportunities/1/edit",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/applications",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/applications/1",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=application_documents",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=application_status_history",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=applications",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=auth_sessions",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=departments",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=document_types",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=eligibility_requirements",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=notifications",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=opportunities",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=opportunity_categories",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=opportunity_departments",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=opportunity_documents",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=opportunity_skills",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=organizations",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=preparation_tasks",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=security_rate_limits",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=skills",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=student_interests",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=student_profiles",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=student_skills",
+    "status": 200
+  },
+  {
+    "role": "admin",
+    "path": "/admin/database?table=users",
+    "status": 200
+  }
+]

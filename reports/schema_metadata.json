@@ -1,0 +1,966 @@
+{
+  "columns": [
+    {
+      "TABLE_NAME": "application_documents",
+      "COLUMN_NAME": "application_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "application_documents",
+      "COLUMN_NAME": "document_type_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "application_documents",
+      "COLUMN_NAME": "document_status",
+      "COLUMN_TYPE": "enum('pending','ready','submitted','approved','needs_update')",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "application_documents",
+      "COLUMN_NAME": "file_name",
+      "COLUMN_TYPE": "varchar(255)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "application_documents",
+      "COLUMN_NAME": "notes",
+      "COLUMN_TYPE": "varchar(255)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "application_documents",
+      "COLUMN_NAME": "updated_at",
+      "COLUMN_TYPE": "timestamp",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "application_status_history",
+      "COLUMN_NAME": "history_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "application_status_history",
+      "COLUMN_NAME": "application_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "application_status_history",
+      "COLUMN_NAME": "old_status",
+      "COLUMN_TYPE": "varchar(30)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "application_status_history",
+      "COLUMN_NAME": "new_status",
+      "COLUMN_TYPE": "varchar(30)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "application_status_history",
+      "COLUMN_NAME": "changed_by",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "application_status_history",
+      "COLUMN_NAME": "change_note",
+      "COLUMN_TYPE": "varchar(255)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "application_status_history",
+      "COLUMN_NAME": "changed_at",
+      "COLUMN_TYPE": "timestamp",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "applications",
+      "COLUMN_NAME": "application_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "applications",
+      "COLUMN_NAME": "student_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "applications",
+      "COLUMN_NAME": "opportunity_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "applications",
+      "COLUMN_NAME": "application_status",
+      "COLUMN_TYPE": "enum('saved','preparing','applied','shortlisted','selected','rejected','withdrawn','under_review')",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "applications",
+      "COLUMN_NAME": "applied_at",
+      "COLUMN_TYPE": "datetime",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "applications",
+      "COLUMN_NAME": "external_reference",
+      "COLUMN_TYPE": "varchar(100)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "applications",
+      "COLUMN_NAME": "created_at",
+      "COLUMN_TYPE": "timestamp",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "applications",
+      "COLUMN_NAME": "updated_at",
+      "COLUMN_TYPE": "timestamp",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "auth_sessions",
+      "COLUMN_NAME": "session_hash",
+      "COLUMN_TYPE": "char(64)",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "auth_sessions",
+      "COLUMN_NAME": "user_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "auth_sessions",
+      "COLUMN_NAME": "created_at",
+      "COLUMN_TYPE": "timestamp",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "auth_sessions",
+      "COLUMN_NAME": "expires_at",
+      "COLUMN_TYPE": "datetime",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "auth_sessions",
+      "COLUMN_NAME": "revoked_at",
+      "COLUMN_TYPE": "datetime",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "departments",
+      "COLUMN_NAME": "department_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "departments",
+      "COLUMN_NAME": "department_code",
+      "COLUMN_TYPE": "varchar(20)",
+      "COLUMN_KEY": "UNI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "departments",
+      "COLUMN_NAME": "department_name",
+      "COLUMN_TYPE": "varchar(100)",
+      "COLUMN_KEY": "UNI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "document_types",
+      "COLUMN_NAME": "document_type_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "document_types",
+      "COLUMN_NAME": "document_name",
+      "COLUMN_TYPE": "varchar(80)",
+      "COLUMN_KEY": "UNI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "document_types",
+      "COLUMN_NAME": "description",
+      "COLUMN_TYPE": "varchar(255)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "eligibility_requirements",
+      "COLUMN_NAME": "opportunity_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "eligibility_requirements",
+      "COLUMN_NAME": "minimum_cgpa",
+      "COLUMN_TYPE": "decimal(4,2)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "eligibility_requirements",
+      "COLUMN_NAME": "minimum_year",
+      "COLUMN_TYPE": "tinyint",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "eligibility_requirements",
+      "COLUMN_NAME": "maximum_year",
+      "COLUMN_TYPE": "tinyint",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "eligibility_requirements",
+      "COLUMN_NAME": "all_departments_allowed",
+      "COLUMN_TYPE": "tinyint(1)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "notifications",
+      "COLUMN_NAME": "notification_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "notifications",
+      "COLUMN_NAME": "user_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "notifications",
+      "COLUMN_NAME": "notification_type",
+      "COLUMN_TYPE": "enum('deadline','application_status','preparation_task','system')",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "notifications",
+      "COLUMN_NAME": "title",
+      "COLUMN_TYPE": "varchar(150)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "notifications",
+      "COLUMN_NAME": "message",
+      "COLUMN_TYPE": "varchar(500)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "notifications",
+      "COLUMN_NAME": "opportunity_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "notifications",
+      "COLUMN_NAME": "application_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "notifications",
+      "COLUMN_NAME": "is_read",
+      "COLUMN_TYPE": "tinyint(1)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "notifications",
+      "COLUMN_NAME": "created_at",
+      "COLUMN_TYPE": "timestamp",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "opportunity_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "organization_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "category_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "title",
+      "COLUMN_TYPE": "varchar(180)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "description",
+      "COLUMN_TYPE": "text",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "mode",
+      "COLUMN_TYPE": "enum('onsite','remote','hybrid')",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "location",
+      "COLUMN_TYPE": "varchar(150)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "stipend",
+      "COLUMN_TYPE": "decimal(10,2)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "application_url",
+      "COLUMN_TYPE": "varchar(500)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "application_deadline",
+      "COLUMN_TYPE": "datetime",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "start_date",
+      "COLUMN_TYPE": "date",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "end_date",
+      "COLUMN_TYPE": "date",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "is_campus_managed",
+      "COLUMN_TYPE": "tinyint(1)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "listing_status",
+      "COLUMN_TYPE": "enum('draft','published','closed','cancelled')",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "created_by",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "created_at",
+      "COLUMN_TYPE": "timestamp",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "updated_at",
+      "COLUMN_TYPE": "timestamp",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunity_categories",
+      "COLUMN_NAME": "category_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunity_categories",
+      "COLUMN_NAME": "category_name",
+      "COLUMN_TYPE": "varchar(60)",
+      "COLUMN_KEY": "UNI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunity_categories",
+      "COLUMN_NAME": "description",
+      "COLUMN_TYPE": "varchar(255)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "opportunity_departments",
+      "COLUMN_NAME": "opportunity_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunity_departments",
+      "COLUMN_NAME": "department_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunity_documents",
+      "COLUMN_NAME": "opportunity_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunity_documents",
+      "COLUMN_NAME": "document_type_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunity_documents",
+      "COLUMN_NAME": "is_mandatory",
+      "COLUMN_TYPE": "tinyint(1)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunity_skills",
+      "COLUMN_NAME": "opportunity_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunity_skills",
+      "COLUMN_NAME": "skill_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "opportunity_skills",
+      "COLUMN_NAME": "requirement_type",
+      "COLUMN_TYPE": "enum('required','preferred')",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "organizations",
+      "COLUMN_NAME": "organization_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "organizations",
+      "COLUMN_NAME": "organization_name",
+      "COLUMN_TYPE": "varchar(150)",
+      "COLUMN_KEY": "UNI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "organizations",
+      "COLUMN_NAME": "organization_type",
+      "COLUMN_TYPE": "enum('company','university','government','ngo','club','other')",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "organizations",
+      "COLUMN_NAME": "website_url",
+      "COLUMN_TYPE": "varchar(255)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "organizations",
+      "COLUMN_NAME": "contact_email",
+      "COLUMN_TYPE": "varchar(120)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "organizations",
+      "COLUMN_NAME": "created_at",
+      "COLUMN_TYPE": "timestamp",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "preparation_tasks",
+      "COLUMN_NAME": "task_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "preparation_tasks",
+      "COLUMN_NAME": "application_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "preparation_tasks",
+      "COLUMN_NAME": "task_title",
+      "COLUMN_TYPE": "varchar(150)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "preparation_tasks",
+      "COLUMN_NAME": "due_date",
+      "COLUMN_TYPE": "datetime",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "preparation_tasks",
+      "COLUMN_NAME": "task_status",
+      "COLUMN_TYPE": "enum('pending','in_progress','completed')",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "preparation_tasks",
+      "COLUMN_NAME": "completed_at",
+      "COLUMN_TYPE": "datetime",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "preparation_tasks",
+      "COLUMN_NAME": "created_at",
+      "COLUMN_TYPE": "timestamp",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "security_rate_limits",
+      "COLUMN_NAME": "bucket_key",
+      "COLUMN_TYPE": "char(64)",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "security_rate_limits",
+      "COLUMN_NAME": "window_start",
+      "COLUMN_TYPE": "bigint",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "security_rate_limits",
+      "COLUMN_NAME": "hits",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "skills",
+      "COLUMN_NAME": "skill_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "skills",
+      "COLUMN_NAME": "skill_name",
+      "COLUMN_TYPE": "varchar(80)",
+      "COLUMN_KEY": "UNI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "skills",
+      "COLUMN_NAME": "skill_category",
+      "COLUMN_TYPE": "varchar(60)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "student_interests",
+      "COLUMN_NAME": "student_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "student_interests",
+      "COLUMN_NAME": "category_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "student_interests",
+      "COLUMN_NAME": "interest_level",
+      "COLUMN_TYPE": "enum('low','medium','high')",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "student_profiles",
+      "COLUMN_NAME": "student_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "student_profiles",
+      "COLUMN_NAME": "user_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "UNI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "student_profiles",
+      "COLUMN_NAME": "university_uid",
+      "COLUMN_TYPE": "varchar(30)",
+      "COLUMN_KEY": "UNI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "student_profiles",
+      "COLUMN_NAME": "department_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "MUL",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "student_profiles",
+      "COLUMN_NAME": "current_year",
+      "COLUMN_TYPE": "tinyint",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "student_profiles",
+      "COLUMN_NAME": "cgpa",
+      "COLUMN_TYPE": "decimal(4,2)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "student_profiles",
+      "COLUMN_NAME": "graduation_year",
+      "COLUMN_TYPE": "year",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "TABLE_NAME": "student_skills",
+      "COLUMN_NAME": "student_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "student_skills",
+      "COLUMN_NAME": "skill_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "student_skills",
+      "COLUMN_NAME": "proficiency_level",
+      "COLUMN_TYPE": "enum('beginner','intermediate','advanced')",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "student_skills",
+      "COLUMN_NAME": "is_verified",
+      "COLUMN_TYPE": "tinyint(1)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "users",
+      "COLUMN_NAME": "user_id",
+      "COLUMN_TYPE": "int",
+      "COLUMN_KEY": "PRI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "users",
+      "COLUMN_NAME": "full_name",
+      "COLUMN_TYPE": "varchar(100)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "users",
+      "COLUMN_NAME": "email",
+      "COLUMN_TYPE": "varchar(120)",
+      "COLUMN_KEY": "UNI",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "users",
+      "COLUMN_NAME": "password_hash",
+      "COLUMN_TYPE": "varchar(255)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "users",
+      "COLUMN_NAME": "role",
+      "COLUMN_TYPE": "enum('student','admin')",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "users",
+      "COLUMN_NAME": "is_active",
+      "COLUMN_TYPE": "tinyint(1)",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "TABLE_NAME": "users",
+      "COLUMN_NAME": "created_at",
+      "COLUMN_TYPE": "timestamp",
+      "COLUMN_KEY": "",
+      "IS_NULLABLE": "NO"
+    }
+  ],
+  "foreign_keys": [
+    {
+      "TABLE_NAME": "application_documents",
+      "COLUMN_NAME": "application_id",
+      "REFERENCED_TABLE_NAME": "applications",
+      "REFERENCED_COLUMN_NAME": "application_id"
+    },
+    {
+      "TABLE_NAME": "application_documents",
+      "COLUMN_NAME": "document_type_id",
+      "REFERENCED_TABLE_NAME": "document_types",
+      "REFERENCED_COLUMN_NAME": "document_type_id"
+    },
+    {
+      "TABLE_NAME": "application_status_history",
+      "COLUMN_NAME": "application_id",
+      "REFERENCED_TABLE_NAME": "applications",
+      "REFERENCED_COLUMN_NAME": "application_id"
+    },
+    {
+      "TABLE_NAME": "application_status_history",
+      "COLUMN_NAME": "changed_by",
+      "REFERENCED_TABLE_NAME": "users",
+      "REFERENCED_COLUMN_NAME": "user_id"
+    },
+    {
+      "TABLE_NAME": "applications",
+      "COLUMN_NAME": "opportunity_id",
+      "REFERENCED_TABLE_NAME": "opportunities",
+      "REFERENCED_COLUMN_NAME": "opportunity_id"
+    },
+    {
+      "TABLE_NAME": "applications",
+      "COLUMN_NAME": "student_id",
+      "REFERENCED_TABLE_NAME": "student_profiles",
+      "REFERENCED_COLUMN_NAME": "student_id"
+    },
+    {
+      "TABLE_NAME": "auth_sessions",
+      "COLUMN_NAME": "user_id",
+      "REFERENCED_TABLE_NAME": "users",
+      "REFERENCED_COLUMN_NAME": "user_id"
+    },
+    {
+      "TABLE_NAME": "eligibility_requirements",
+      "COLUMN_NAME": "opportunity_id",
+      "REFERENCED_TABLE_NAME": "opportunities",
+      "REFERENCED_COLUMN_NAME": "opportunity_id"
+    },
+    {
+      "TABLE_NAME": "notifications",
+      "COLUMN_NAME": "application_id",
+      "REFERENCED_TABLE_NAME": "applications",
+      "REFERENCED_COLUMN_NAME": "application_id"
+    },
+    {
+      "TABLE_NAME": "notifications",
+      "COLUMN_NAME": "opportunity_id",
+      "REFERENCED_TABLE_NAME": "opportunities",
+      "REFERENCED_COLUMN_NAME": "opportunity_id"
+    },
+    {
+      "TABLE_NAME": "notifications",
+      "COLUMN_NAME": "user_id",
+      "REFERENCED_TABLE_NAME": "users",
+      "REFERENCED_COLUMN_NAME": "user_id"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "category_id",
+      "REFERENCED_TABLE_NAME": "opportunity_categories",
+      "REFERENCED_COLUMN_NAME": "category_id"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "created_by",
+      "REFERENCED_TABLE_NAME": "users",
+      "REFERENCED_COLUMN_NAME": "user_id"
+    },
+    {
+      "TABLE_NAME": "opportunities",
+      "COLUMN_NAME": "organization_id",
+      "REFERENCED_TABLE_NAME": "organizations",
+      "REFERENCED_COLUMN_NAME": "organization_id"
+    },
+    {
+      "TABLE_NAME": "opportunity_departments",
+      "COLUMN_NAME": "department_id",
+      "REFERENCED_TABLE_NAME": "departments",
+      "REFERENCED_COLUMN_NAME": "department_id"
+    },
+    {
+      "TABLE_NAME": "opportunity_departments",
+      "COLUMN_NAME": "opportunity_id",
+      "REFERENCED_TABLE_NAME": "opportunities",
+      "REFERENCED_COLUMN_NAME": "opportunity_id"
+    },
+    {
+      "TABLE_NAME": "opportunity_documents",
+      "COLUMN_NAME": "document_type_id",
+      "REFERENCED_TABLE_NAME": "document_types",
+      "REFERENCED_COLUMN_NAME": "document_type_id"
+    },
+    {
+      "TABLE_NAME": "opportunity_documents",
+      "COLUMN_NAME": "opportunity_id",
+      "REFERENCED_TABLE_NAME": "opportunities",
+      "REFERENCED_COLUMN_NAME": "opportunity_id"
+    },
+    {
+      "TABLE_NAME": "opportunity_skills",
+      "COLUMN_NAME": "opportunity_id",
+      "REFERENCED_TABLE_NAME": "opportunities",
+      "REFERENCED_COLUMN_NAME": "opportunity_id"
+    },
+    {
+      "TABLE_NAME": "opportunity_skills",
+      "COLUMN_NAME": "skill_id",
+      "REFERENCED_TABLE_NAME": "skills",
+      "REFERENCED_COLUMN_NAME": "skill_id"
+    },
+    {
+      "TABLE_NAME": "preparation_tasks",
+      "COLUMN_NAME": "application_id",
+      "REFERENCED_TABLE_NAME": "applications",
+      "REFERENCED_COLUMN_NAME": "application_id"
+    },
+    {
+      "TABLE_NAME": "student_interests",
+      "COLUMN_NAME": "category_id",
+      "REFERENCED_TABLE_NAME": "opportunity_categories",
+      "REFERENCED_COLUMN_NAME": "category_id"
+    },
+    {
+      "TABLE_NAME": "student_interests",
+      "COLUMN_NAME": "student_id",
+      "REFERENCED_TABLE_NAME": "student_profiles",
+      "REFERENCED_COLUMN_NAME": "student_id"
+    },
+    {
+      "TABLE_NAME": "student_profiles",
+      "COLUMN_NAME": "department_id",
+      "REFERENCED_TABLE_NAME": "departments",
+      "REFERENCED_COLUMN_NAME": "department_id"
+    },
+    {
+      "TABLE_NAME": "student_profiles",
+      "COLUMN_NAME": "user_id",
+      "REFERENCED_TABLE_NAME": "users",
+      "REFERENCED_COLUMN_NAME": "user_id"
+    },
+    {
+      "TABLE_NAME": "student_skills",
+      "COLUMN_NAME": "skill_id",
+      "REFERENCED_TABLE_NAME": "skills",
+      "REFERENCED_COLUMN_NAME": "skill_id"
+    },
+    {
+      "TABLE_NAME": "student_skills",
+      "COLUMN_NAME": "student_id",
+      "REFERENCED_TABLE_NAME": "student_profiles",
+      "REFERENCED_COLUMN_NAME": "student_id"
+    }
+  ]
+}

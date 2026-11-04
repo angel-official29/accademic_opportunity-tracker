@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block title %}
+Opportunity Compass | Campus Readiness Planner
+{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <span class="eyebrow">Built for campus opportunities</span>
+
+        <h1>
+            Find the right opportunity.
+            <span>Know exactly how ready you are.</span>
+        </h1>
+
+        <p>
+            Discover internships, scholarships, research projects and
+            hackathons. Check your eligibility, identify missing skills
+            and organise every application task in one place.
+        </p>
+
+        <div class="hero-actions">
+            <a
+                class="primary-button"
+                href="{{ url_for('register') }}"
+            >
+                Create Student Profile
+            </a>
+
+            <a
+                class="secondary-button"
+                href="{{ url_for('login') }}"
+            >
+                Sign In
+            </a>
+        </div>
+    </div>
+
+    <div class="readiness-card">
+        <div class="card-heading">
+            <div>
+                <small>Illustrative readiness example</small>
+                <h2>Research Internship</h2>
+            </div>
+
+            <span class="score-badge">78%</span>
+        </div>
+
+        <div class="readiness-item">
+            <div>
+                <span>Academic eligibility</span>
+                <strong>Eligible</strong>
+            </div>
+            <div class="progress">
+                <span class="progress-full"></span>
+            </div>
+        </div>
+
+        <div class="readiness-item">
+            <div>
+                <span>Skill match</span>
+                <strong>3 of 4</strong>
+            </div>
+            <div class="progress">
+                <span class="progress-three-quarters"></span>
+            </div>
+        </div>
+
+        <div class="readiness-item">
+            <div>
+                <span>Documents ready</span>
+                <strong>2 of 3</strong>
+            </div>
+            <div class="progress">
+                <span class="progress-two-thirds"></span>
+            </div>
+        </div>
+
+        <div class="next-action">
+            <span>Next action</span>
+            <strong>Prepare NOC before the deadline</strong>
+        </div>
+    </div>
+</section>
+
+<section class="feature-section">
+    <div class="section-heading">
+        <span class="eyebrow">More than a listing portal</span>
+        <h2>From discovery to application readiness</h2>
+    </div>
+
+    <div class="feature-grid">
+        <article class="feature-card">
+            <span class="feature-number">01</span>
+            <h3>Explainable eligibility</h3>
+            <p>
+                See whether you meet year, department and CGPA
+                requirements, along with clear reasons.
+            </p>
+        </article>
+
+        <article class="feature-card">
+            <span class="feature-number">02</span>
+            <h3>Skill-gap analysis</h3>
+            <p>
+                Compare your profile with required and preferred skills
+                before spending time on an application.
+            </p>
+        </article>
+
+        <article class="feature-card">
+            <span class="feature-number">03</span>
+            <h3>Application planner</h3>
+            <p>
+                Track your resume, NOC, proposal and personal tasks
+                against the actual application deadline.
+            </p>
+        </article>
+    </div>
+</section>
+{% endblock %}

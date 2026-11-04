@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1360" viewBox="0 0 2560 1360"><rect width="100%" height="100%" fill="white"/>
+<text x="50" y="61" font-family="Calibri,Arial,sans-serif" font-size="36" fill="#17243b">Academic Opportunity Tracker ER diagram</text>
+<text x="50" y="103" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">PK primary key    FK foreign key    UQ unique    Arrows run from parent to child</text>
+<polyline points="545,595 590,595 590,1005 545,1005" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="557,998 545,1005 557,1012" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1890,975 1827,975 1827,1005 1765,1005" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1777,998 1765,1005 1777,1012" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1155,595 1217,595 1217,971 1280,971" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1268,964 1280,971 1268,978" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1155,215 1236,215 1236,693 1155,693" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1167,686 1155,693 1167,700" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="545,595 607,595 607,625 670,625" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="658,618 670,625 658,632" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1890,595 1827,595 1827,625 1765,625" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1777,618 1765,625 1777,632" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1155,595 1217,595 1217,591 1280,591" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1268,584 1280,591 1268,598" fill="none" stroke="#537581" stroke-width="3"/>
+<rect x="60" y="525" width="485" height="123" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="60" y="525" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="72" y="559" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">users</text>
+<text x="72" y="606" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="177" y="606" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">user_id</text>
+<text x="72" y="640" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="177" y="640" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">email</text>
+<rect x="60" y="905" width="485" height="123" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="60" y="905" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="72" y="939" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">auth_sessions</text>
+<text x="72" y="986" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="177" y="986" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">session_hash</text>
+<text x="72" y="1020" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="177" y="1020" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">user_id</text>
+<rect x="670" y="525" width="485" height="191" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="670" y="525" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="682" y="559" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">student_profiles</text>
+<text x="682" y="606" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="787" y="606" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">student_id</text>
+<text x="682" y="640" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ FK</text>
+<text x="787" y="640" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">user_id</text>
+<text x="682" y="674" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="787" y="674" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">university_uid</text>
+<text x="682" y="708" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="787" y="708" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">department_id</text>
+<rect x="670" y="145" width="485" height="157" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="670" y="145" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="682" y="179" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">departments</text>
+<text x="682" y="226" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="787" y="226" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">department_id</text>
+<text x="682" y="260" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="787" y="260" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">department_code</text>
+<text x="682" y="294" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="787" y="294" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">department_name</text>
+<rect x="1280" y="525" width="485" height="123" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="1280" y="525" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="1292" y="559" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">student_skills</text>
+<text x="1292" y="606" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="1397" y="606" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">student_id</text>
+<text x="1292" y="640" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="1397" y="640" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">skill_id</text>
+<rect x="1890" y="525" width="485" height="123" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="1890" y="525" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="1902" y="559" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">skills</text>
+<text x="1902" y="606" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="2007" y="606" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">skill_id</text>
+<text x="1902" y="640" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="2007" y="640" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">skill_name</text>
+<rect x="1280" y="905" width="485" height="123" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="1280" y="905" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="1292" y="939" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">student_interests</text>
+<text x="1292" y="986" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="1397" y="986" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">student_id</text>
+<text x="1292" y="1020" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="1397" y="1020" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">category_id</text>
+<rect x="1890" y="905" width="485" height="123" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="1890" y="905" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="1902" y="939" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">opportunity_categories</text>
+<text x="1902" y="986" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="2007" y="986" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">category_id</text>
+<text x="1902" y="1020" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="2007" y="1020" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">category_name</text>
+<text x="50" y="1316" font-family="Calibri,Arial,sans-serif" font-size="21" fill="#17243b">Cardinality: each parent has 0..N child rows; users to student_profiles and opportunities to eligibility_requirements are 0..1.</text>
+<text x="50" y="1346" font-family="Calibri,Arial,sans-serif" font-size="21" fill="#17243b">Nullable foreign keys allow a child to have no parent. security_rate_limits is an independent HMAC-keyed security table.</text>
+</svg>

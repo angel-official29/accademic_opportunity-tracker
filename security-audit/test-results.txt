@@ -1,0 +1,23 @@
+test_csrf_missing_unicode_oversized_all_routes (test_security.AnonymousSecurityTest.test_csrf_missing_unicode_oversized_all_routes) ... ok
+test_headers_errors_and_get_logout (test_security.AnonymousSecurityTest.test_headers_errors_and_get_logout) ... ok
+test_host_and_request_limits (test_security.AnonymousSecurityTest.test_host_and_request_limits) ... ok
+test_identity_normalization_and_mismatch (test_security.AnonymousSecurityTest.test_identity_normalization_and_mismatch) ... ok
+test_production_guards_and_https_cookie (test_security.AnonymousSecurityTest.test_production_guards_and_https_cookie) ... ok
+test_safe_database_and_unexpected_errors (test_security.AnonymousSecurityTest.test_safe_database_and_unexpected_errors) ... ok
+test_template_csrf_and_xss_sinks (test_security.AnonymousSecurityTest.test_template_csrf_and_xss_sinks) ... ok
+test_concurrent_profile_and_registration (test_security.DatabaseSecurityTest.test_concurrent_profile_and_registration) ... ok
+test_database_permissions_and_history_triggers (test_security.DatabaseSecurityTest.test_database_permissions_and_history_triggers) ... ok
+test_login_injection_wrong_password_and_inactive (test_security.DatabaseSecurityTest.test_login_injection_wrong_password_and_inactive) ... ok
+test_logout_replay_rotation_and_session_contents (test_security.DatabaseSecurityTest.test_logout_replay_rotation_and_session_contents) ... ok
+test_profile_validation_uid_and_ownership (test_security.DatabaseSecurityTest.test_profile_validation_uid_and_ownership) ... ok
+test_registration_validation_hash_uniqueness_and_role (test_security.DatabaseSecurityTest.test_registration_validation_hash_uniqueness_and_role) ... ok
+test_role_checks_and_diagnostic_metadata (test_security.DatabaseSecurityTest.test_role_checks_and_diagnostic_metadata) ... ok
+test_shared_rate_limits (test_security.DatabaseSecurityTest.test_shared_rate_limits) ... [2026-11-03 18:52:03,503] WARNING in security: security_event=rate_limit endpoint=login
+[2026-11-03 18:52:03,717] WARNING in security: security_event=rate_limit endpoint=register
+ok
+test_stored_and_reflected_xss (test_security.DatabaseSecurityTest.test_stored_and_reflected_xss) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 11.636s
+
+OK

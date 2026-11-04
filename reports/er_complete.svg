@@ -1,0 +1,351 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3170" height="4220" viewBox="0 0 3170 4220"><rect width="100%" height="100%" fill="white"/>
+<text x="50" y="61" font-family="Calibri,Arial,sans-serif" font-size="36" fill="#17243b">Academic Opportunity Tracker ER diagram</text>
+<text x="50" y="103" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">PK primary key    FK foreign key    UQ unique    Arrows run from parent to child</text>
+<polyline points="1280,215 912,215 912,211 545,211" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="557,204 545,211 557,218" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="545,1015 608,1015 608,245 545,245" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="557,238 545,245 557,252" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1280,215 1217,215 1217,245 1155,245" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1167,238 1155,245 1167,252" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="545,3415 607,3415 607,347 670,347" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="658,340 670,347 658,354" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1890,1015 1827,1015 1827,279 1765,279" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1777,272 1765,279 1777,286" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1890,2615 1827,2615 1827,245 1765,245" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1777,238 1765,245 1777,252" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="545,3415 1217,3415 1217,245 1890,245" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1878,238 1890,245 1878,252" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1890,1015 1522,1015 1522,1011 1155,1011" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1167,1004 1155,1011 1167,1018" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1765,215 1846,215 1846,1215 1765,1215" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1777,1208 1765,1215 1777,1222" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1890,1015 1827,1015 1827,1181 1765,1181" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1777,1174 1765,1181 1777,1188" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="545,3415 912,3415 912,1045 1280,1045" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1268,1038 1280,1045 1268,1052" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="2500,1015 2437,1015 2437,1079 2375,1079" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="2387,1072 2375,1079 2387,1086" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="545,3415 1217,3415 1217,1487 1890,1487" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1878,1480 1890,1487 1878,1494" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="2375,1815 2438,1815 2438,1045 2375,1045" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="2387,1038 2375,1045 2387,1052" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="2500,215 1522,215 1522,1845 545,1845" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="557,1838 545,1845 557,1852" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1890,1015 1217,1015 1217,1811 545,1811" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="557,1804 545,1811 557,1818" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="545,1015 607,1015 607,1845 670,1845" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="658,1838 670,1845 658,1852" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1890,1015 1522,1015 1522,1811 1155,1811" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1167,1804 1155,1811 1167,1818" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1890,1015 1827,1015 1827,1811 1765,1811" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1777,1804 1765,1811 1777,1818" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1155,2615 1217,2615 1217,1845 1280,1845" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1268,1838 1280,1845 1268,1852" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1765,215 2132,215 2132,1845 2500,1845" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="2488,1838 2500,1845 2488,1852" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="2500,1015 2132,1015 2132,2645 1765,2645" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1777,2638 1765,2645 1777,2652" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1890,2615 1827,2615 1827,2611 1765,2611" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1777,2604 1765,2611 1777,2618" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="2500,215 2437,215 2437,2713 2375,2713" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="2387,2706 2375,2713 2387,2720" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="545,3415 1217,3415 1217,2645 1890,2645" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1878,2638 1890,2645 1878,2652" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="1155,2615 1827,2615 1827,2645 2500,2645" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="2488,2638 2500,2645 2488,2652" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="2375,2615 2437,2615 2437,2611 2500,2611" fill="none" stroke="#537581" stroke-width="3"/>
+<polyline points="2488,2604 2500,2611 2488,2618" fill="none" stroke="#537581" stroke-width="3"/>
+<rect x="60" y="145" width="485" height="259" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="60" y="145" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="72" y="179" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">application_documents</text>
+<text x="72" y="226" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="177" y="226" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">application_id</text>
+<text x="72" y="260" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="177" y="260" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">document_type_id</text>
+<text x="72" y="294" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="177" y="294" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">document_status</text>
+<text x="72" y="328" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="177" y="328" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">file_name</text>
+<text x="72" y="362" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="177" y="362" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">notes</text>
+<text x="72" y="396" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="177" y="396" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">updated_at</text>
+<rect x="670" y="145" width="485" height="293" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="670" y="145" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="682" y="179" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">application_status_history</text>
+<text x="682" y="226" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="787" y="226" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">history_id</text>
+<text x="682" y="260" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="787" y="260" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">application_id</text>
+<text x="682" y="294" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="787" y="294" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">old_status</text>
+<text x="682" y="328" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="787" y="328" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">new_status</text>
+<text x="682" y="362" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="787" y="362" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">changed_by</text>
+<text x="682" y="396" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="787" y="396" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">change_note</text>
+<text x="682" y="430" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="787" y="430" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">changed_at</text>
+<rect x="1280" y="145" width="485" height="327" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="1280" y="145" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="1292" y="179" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">applications</text>
+<text x="1292" y="226" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="1397" y="226" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">application_id</text>
+<text x="1292" y="260" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="1397" y="260" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">student_id</text>
+<text x="1292" y="294" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="1397" y="294" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">opportunity_id</text>
+<text x="1292" y="328" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="1397" y="328" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">application_status</text>
+<text x="1292" y="362" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="1397" y="362" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">applied_at</text>
+<text x="1292" y="396" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="1397" y="396" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">external_reference</text>
+<text x="1292" y="430" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="1397" y="430" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">created_at</text>
+<text x="1292" y="464" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="1397" y="464" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">updated_at</text>
+<rect x="1890" y="145" width="485" height="225" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="1890" y="145" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="1902" y="179" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">auth_sessions</text>
+<text x="1902" y="226" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="2007" y="226" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">session_hash</text>
+<text x="1902" y="260" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="2007" y="260" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">user_id</text>
+<text x="1902" y="294" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="294" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">created_at</text>
+<text x="1902" y="328" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="328" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">expires_at</text>
+<text x="1902" y="362" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="362" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">revoked_at</text>
+<rect x="2500" y="145" width="485" height="157" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="2500" y="145" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="2512" y="179" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">departments</text>
+<text x="2512" y="226" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="2617" y="226" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">department_id</text>
+<text x="2512" y="260" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="2617" y="260" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">department_code</text>
+<text x="2512" y="294" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="2617" y="294" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">department_name</text>
+<rect x="60" y="945" width="485" height="157" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="60" y="945" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="72" y="979" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">document_types</text>
+<text x="72" y="1026" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="177" y="1026" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">document_type_id</text>
+<text x="72" y="1060" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="177" y="1060" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">document_name</text>
+<text x="72" y="1094" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="177" y="1094" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">description</text>
+<rect x="670" y="945" width="485" height="225" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="670" y="945" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="682" y="979" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">eligibility_requirements</text>
+<text x="682" y="1026" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="787" y="1026" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">opportunity_id</text>
+<text x="682" y="1060" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="787" y="1060" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">minimum_cgpa</text>
+<text x="682" y="1094" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="787" y="1094" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">minimum_year</text>
+<text x="682" y="1128" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="787" y="1128" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">maximum_year</text>
+<text x="682" y="1162" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="787" y="1162" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">all_departments_allowed</text>
+<rect x="1280" y="945" width="485" height="361" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="1280" y="945" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="1292" y="979" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">notifications</text>
+<text x="1292" y="1026" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="1397" y="1026" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">notification_id</text>
+<text x="1292" y="1060" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="1397" y="1060" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">user_id</text>
+<text x="1292" y="1094" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="1397" y="1094" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">notification_type</text>
+<text x="1292" y="1128" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="1397" y="1128" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">title</text>
+<text x="1292" y="1162" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="1397" y="1162" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">message</text>
+<text x="1292" y="1196" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="1397" y="1196" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">opportunity_id</text>
+<text x="1292" y="1230" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="1397" y="1230" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">application_id</text>
+<text x="1292" y="1264" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="1397" y="1264" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">is_read</text>
+<text x="1292" y="1298" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="1397" y="1298" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">created_at</text>
+<rect x="1890" y="945" width="485" height="633" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="1890" y="945" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="1902" y="979" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">opportunities</text>
+<text x="1902" y="1026" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="2007" y="1026" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">opportunity_id</text>
+<text x="1902" y="1060" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="2007" y="1060" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">organization_id</text>
+<text x="1902" y="1094" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="2007" y="1094" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">category_id</text>
+<text x="1902" y="1128" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1128" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">title</text>
+<text x="1902" y="1162" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1162" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">description</text>
+<text x="1902" y="1196" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1196" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">mode</text>
+<text x="1902" y="1230" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1230" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">location</text>
+<text x="1902" y="1264" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1264" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">stipend</text>
+<text x="1902" y="1298" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1298" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">application_url</text>
+<text x="1902" y="1332" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1332" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">application_deadline</text>
+<text x="1902" y="1366" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1366" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">start_date</text>
+<text x="1902" y="1400" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1400" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">end_date</text>
+<text x="1902" y="1434" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1434" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">is_campus_managed</text>
+<text x="1902" y="1468" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1468" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">listing_status</text>
+<text x="1902" y="1502" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="2007" y="1502" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">created_by</text>
+<text x="1902" y="1536" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1536" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">created_at</text>
+<text x="1902" y="1570" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1570" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">updated_at</text>
+<rect x="2500" y="945" width="485" height="157" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="2500" y="945" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="2512" y="979" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">opportunity_categories</text>
+<text x="2512" y="1026" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="2617" y="1026" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">category_id</text>
+<text x="2512" y="1060" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="2617" y="1060" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">category_name</text>
+<text x="2512" y="1094" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2617" y="1094" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">description</text>
+<rect x="60" y="1745" width="485" height="123" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="60" y="1745" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="72" y="1779" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">opportunity_departments</text>
+<text x="72" y="1826" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="177" y="1826" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">opportunity_id</text>
+<text x="72" y="1860" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="177" y="1860" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">department_id</text>
+<rect x="670" y="1745" width="485" height="157" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="670" y="1745" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="682" y="1779" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">opportunity_documents</text>
+<text x="682" y="1826" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="787" y="1826" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">opportunity_id</text>
+<text x="682" y="1860" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="787" y="1860" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">document_type_id</text>
+<text x="682" y="1894" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="787" y="1894" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">is_mandatory</text>
+<rect x="1280" y="1745" width="485" height="157" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="1280" y="1745" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="1292" y="1779" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">opportunity_skills</text>
+<text x="1292" y="1826" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="1397" y="1826" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">opportunity_id</text>
+<text x="1292" y="1860" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="1397" y="1860" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">skill_id</text>
+<text x="1292" y="1894" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="1397" y="1894" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">requirement_type</text>
+<rect x="1890" y="1745" width="485" height="259" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="1890" y="1745" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="1902" y="1779" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">organizations</text>
+<text x="1902" y="1826" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="2007" y="1826" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">organization_id</text>
+<text x="1902" y="1860" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="2007" y="1860" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">organization_name</text>
+<text x="1902" y="1894" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1894" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">organization_type</text>
+<text x="1902" y="1928" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1928" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">website_url</text>
+<text x="1902" y="1962" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1962" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">contact_email</text>
+<text x="1902" y="1996" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="1996" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">created_at</text>
+<rect x="2500" y="1745" width="485" height="293" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="2500" y="1745" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="2512" y="1779" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">preparation_tasks</text>
+<text x="2512" y="1826" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="2617" y="1826" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">task_id</text>
+<text x="2512" y="1860" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="2617" y="1860" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">application_id</text>
+<text x="2512" y="1894" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2617" y="1894" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">task_title</text>
+<text x="2512" y="1928" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2617" y="1928" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">due_date</text>
+<text x="2512" y="1962" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2617" y="1962" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">task_status</text>
+<text x="2512" y="1996" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2617" y="1996" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">completed_at</text>
+<text x="2512" y="2030" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2617" y="2030" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">created_at</text>
+<rect x="60" y="2545" width="485" height="157" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="60" y="2545" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="72" y="2579" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">security_rate_limits</text>
+<text x="72" y="2626" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="177" y="2626" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">bucket_key</text>
+<text x="72" y="2660" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="177" y="2660" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">window_start</text>
+<text x="72" y="2694" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="177" y="2694" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">hits</text>
+<rect x="670" y="2545" width="485" height="157" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="670" y="2545" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="682" y="2579" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">skills</text>
+<text x="682" y="2626" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="787" y="2626" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">skill_id</text>
+<text x="682" y="2660" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="787" y="2660" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">skill_name</text>
+<text x="682" y="2694" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="787" y="2694" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">skill_category</text>
+<rect x="1280" y="2545" width="485" height="157" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="1280" y="2545" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="1292" y="2579" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">student_interests</text>
+<text x="1292" y="2626" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="1397" y="2626" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">student_id</text>
+<text x="1292" y="2660" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="1397" y="2660" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">category_id</text>
+<text x="1292" y="2694" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="1397" y="2694" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">interest_level</text>
+<rect x="1890" y="2545" width="485" height="293" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="1890" y="2545" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="1902" y="2579" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">student_profiles</text>
+<text x="1902" y="2626" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="2007" y="2626" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">student_id</text>
+<text x="1902" y="2660" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ FK</text>
+<text x="2007" y="2660" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">user_id</text>
+<text x="1902" y="2694" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="2007" y="2694" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">university_uid</text>
+<text x="1902" y="2728" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">FK</text>
+<text x="2007" y="2728" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">department_id</text>
+<text x="1902" y="2762" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="2762" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">current_year</text>
+<text x="1902" y="2796" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="2796" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">cgpa</text>
+<text x="1902" y="2830" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2007" y="2830" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">graduation_year</text>
+<rect x="2500" y="2545" width="485" height="191" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="2500" y="2545" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="2512" y="2579" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">student_skills</text>
+<text x="2512" y="2626" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="2617" y="2626" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">student_id</text>
+<text x="2512" y="2660" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK FK</text>
+<text x="2617" y="2660" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">skill_id</text>
+<text x="2512" y="2694" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2617" y="2694" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">proficiency_level</text>
+<text x="2512" y="2728" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="2617" y="2728" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">is_verified</text>
+<rect x="60" y="3345" width="485" height="293" fill="#f7f9fa" stroke="#a9b7bc"/>
+<rect x="60" y="3345" width="485" height="48" fill="#17394a" stroke="#a9b7bc"/>
+<text x="72" y="3379" font-family="Calibri,Arial,sans-serif" font-size="26" fill="white">users</text>
+<text x="72" y="3426" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">PK</text>
+<text x="177" y="3426" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">user_id</text>
+<text x="72" y="3460" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="177" y="3460" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">full_name</text>
+<text x="72" y="3494" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60">UQ</text>
+<text x="177" y="3494" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">email</text>
+<text x="72" y="3528" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="177" y="3528" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">password_hash</text>
+<text x="72" y="3562" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="177" y="3562" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">role</text>
+<text x="72" y="3596" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="177" y="3596" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">is_active</text>
+<text x="72" y="3630" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#126c60"></text>
+<text x="177" y="3630" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#17243b">created_at</text>
+<text x="50" y="4176" font-family="Calibri,Arial,sans-serif" font-size="21" fill="#17243b">Cardinality: each parent has 0..N child rows; users to student_profiles and opportunities to eligibility_requirements are 0..1.</text>
+<text x="50" y="4206" font-family="Calibri,Arial,sans-serif" font-size="21" fill="#17243b">Nullable foreign keys allow a child to have no parent. security_rate_limits is an independent HMAC-keyed security table.</text>
+</svg>

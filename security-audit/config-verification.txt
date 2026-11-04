@@ -1,0 +1,3 @@
+Configured-secret scan: PASS (30 text files)
+Git history: not present / not assessed
+Restricted runtime principal and transaction isolation: PASS

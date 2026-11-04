@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        {% block title %}Opportunity Compass{% endblock %}
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+
+    <script
+        src="{{ url_for('static', filename='js/app.js') }}"
+        defer
+    ></script>
+</head>
+
+<body>
+    <header class="topbar">
+        <a class="brand" href="{{ url_for('home') }}">
+            <span class="brand-mark">OC</span>
+
+            <span>
+                <strong>Opportunity Compass</strong>
+                <small>Chandigarh University</small>
+            </span>
+        </a>
+
+        <nav class="main-nav">
+            {% if session.get('user_id') %}
+                {% if current_user and current_user.role=='admin' %}
+                <a href="{{ url_for('admin.dashboard') }}">Overview</a>
+                <a href="{{ url_for('admin.opportunities') }}">Opportunities</a>
+                <a href="{{ url_for('admin.applications') }}">Applicants</a>
+                <a href="{{ url_for('admin.database_browser') }}">Database</a>
+                {% else %}
+                <a href="{{ url_for('student.dashboard') }}">Dashboard</a>
+                <a href="{{ url_for('student.discover') }}">Discover</a>
+                <a href="{{ url_for('student.applications') }}">My Applications</a>
+                <a href="{{ url_for('student.profile') }}">Profile</a>
+                {% endif %}
+                <form method="post" action="{{ url_for('logout') }}" class="logout-form">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                    <button class="button-link" type="submit">Logout</button>
+                </form>
+            {% else %}
+                <a href="{{ url_for('login') }}">Login</a>
+                <a
+                    class="button-link"
+                    href="{{ url_for('register') }}"
+                >
+                    Create Account
+                </a>
+            {% endif %}
+        </nav>
+    </header>
+
+    <main class="page-container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <section class="flash-list">
+                    {% for category, message in messages %}
+                        <div class="flash-message {{ category }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                </section>
+            {% endif %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+        Chandigarh University Academic Opportunity Tracker
+    </footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+PASS homepage + security headers
+PASS /login
+PASS /register
+PASS protected profile redirects when logged out
+PASS CSRF-free login rejected
+PASS UID login + academic profile
+PASS diagnostic denied to student
+PASS POST logout + protected-route rejection
