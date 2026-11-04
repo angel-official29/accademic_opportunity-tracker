@@ -104,6 +104,9 @@ def configure(app):
         hosts=[host.strip() for host in os.getenv('TRUSTED_HOSTS','').split(',') if host.strip()]
         if not hosts or os.getenv('DB_USER','root').lower()=='root':
             raise RuntimeError('Production requires TRUSTED_HOSTS and a dedicated non-root database user.')
+        vercel_host=os.getenv('VERCEL_URL','').strip()
+        if vercel_host and vercel_host not in hosts:
+            hosts.append(vercel_host)
         app.config['TRUSTED_HOSTS']=hosts
     app.teardown_appcontext(close_db)
 

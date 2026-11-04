@@ -85,7 +85,7 @@ class AnonymousSecurityTest(unittest.TestCase):
                 identity(uid,email)
 
     def test_production_guards_and_https_cookie(self):
-        e={'APP_ENV':'production','DB_USER':'cu_documents','TRUSTED_HOSTS':'tracker.example.test'}
+        e={'APP_ENV':'production','DB_USER':'cu_documents','TRUSTED_HOSTS':'tracker.example.test','VERCEL_URL':'deployment.example.vercel.app'}
         with patch.dict(os.environ,e):
             a=Flask('production-test')
             a.secret_key=secrets.token_hex(32)
@@ -100,6 +100,7 @@ class AnonymousSecurityTest(unittest.TestCase):
             self.assertEqual(c.get('/',base_url='http://tracker.example.test').status_code,400)
             r=c.get('/',base_url='https://tracker.example.test')
             self.assertEqual(r.status_code,200)
+            self.assertEqual(c.get('/',base_url='https://deployment.example.vercel.app').status_code,200)
             self.assertIn('Strict-Transport-Security',r.headers)
             for flag in ('Secure','HttpOnly','SameSite=Lax'):
                 self.assertIn(flag,r.headers['Set-Cookie'])
