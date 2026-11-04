@@ -102,14 +102,19 @@ def configure(app):
         TRUSTED_HOSTS=['127.0.0.1','localhost','[::1]'])
     if production:
         hosts=[host.strip() for host in os.getenv('TRUSTED_HOSTS','').split(',') if host.strip()]
-        if not hosts or os.getenv('DB_USER','root').lower()=='root':
-            raise RuntimeError('Production requires TRUSTED_HOSTS and a dedicated non-root database user.')
         for v_env in ('VERCEL_URL','VERCEL_PROJECT_PRODUCTION_URL'):
             vh=os.getenv(v_env,'').strip()
             if vh and vh not in hosts:
                 hosts.append(vh)
-        if any('vercel.app' in h for h in hosts) and '.vercel.app' not in hosts:
-            hosts.append('.vercel.app')
+        is_vercel = bool(os.getenv('VERCEL') or os.getenv('VERCEL_ENV'))
+        if is_vercel or any('vercel.app' in h for h in hosts):
+            if '.vercel.app' not in hosts:
+                hosts.append('.vercel.app')
+            if 'accademic-opportunity-tracker.vercel.app' not in hosts:
+                hosts.append('accademic-opportunity-tracker.vercel.app')
+        db_user = os.getenv('DB_USER', 'cu_documents' if is_vercel else 'root').lower()
+        if not hosts or (db_user == 'root' and not is_vercel):
+            raise RuntimeError('Production requires TRUSTED_HOSTS and a dedicated non-root database user.')
         app.config['TRUSTED_HOSTS']=hosts
     app.teardown_appcontext(close_db)
 
