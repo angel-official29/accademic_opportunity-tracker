@@ -29,6 +29,11 @@ configure(app)
 DUMMY_HASH=generate_password_hash(secrets.token_urlsafe(24))
 
 
+@app.route("/favicon.ico")
+def favicon():
+    return "", 204
+
+
 @app.route("/")
 def home():
     if g.user:
